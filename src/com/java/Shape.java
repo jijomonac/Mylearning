@@ -6,8 +6,8 @@ package com.java;
  */
 public interface Shape {
 
-    static int A = 5;
-    final int B = 6;
+    int A = 5;
+    int B = 6;
 
     void draw();
 
