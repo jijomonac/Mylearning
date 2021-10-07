@@ -1,5 +1,7 @@
 package com.java.static1;
 
+import java.util.List;
+
 /**
  *
  * @author hp
@@ -23,5 +25,18 @@ public class MyMain {
 //        c.color();
         //String aa="ji/jo";
         //System.out.println(aa.contains("/"));
+        printAll(null);
     }
+    
+    
+    public static void printAll(List<String>... lists){
+    for(List<String> list : lists){
+        System.out.println(list);
+    }
+}
+
+    
+    
+    
+    
 }
