@@ -14,7 +14,7 @@ public class Service {
     public boolean query(String query) {
         return database.isAvailable();
     }
-
+    //master commit 1
 
     @Override
     public String toString() {
