@@ -7,7 +7,7 @@ package com.jac.junit.mokito;
 public class Database {
     public boolean isAvailable() {
         // currently not implemented, as this is just demo used in a software test
-        //commit test_b1 1
+
         return false;
     }
     public int getUniqueId() {
