@@ -8,6 +8,6 @@ package com.jac.junit;
 public interface ICalculator {
     int add(int x, int y);
     
-    //commit 2
+    //commit 2. commit2
     
 }
