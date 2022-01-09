@@ -20,8 +20,6 @@ public class CalService {
     public void setCal(ICalculator cal) {
         this.cal = cal;
     }
-    
-//commit testb2 1
-  //commit testb2 2
+
     
 }
