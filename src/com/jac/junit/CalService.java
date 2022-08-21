@@ -20,7 +20,6 @@ public class CalService {
     public void setCal(ICalculator cal) {
         this.cal = cal;
     }
-    
 
-    
+    //second comment added by test_b2
 }
