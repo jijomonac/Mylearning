@@ -73,7 +73,7 @@ public class ConTest {
         BasicDBObject searchQuery = new BasicDBObject();
         searchQuery.put("name", name);
         FindIterable<Document> iterDoc = collection.find(searchQuery).projection(fields(include("name","id")));
-        // Getting the iterator  test_b1
+        // Getting the iterator  test_b1 b2
         System.out.println("Listing All Mongo Documents");
         Iterator it = iterDoc.iterator();
         while (it.hasNext()) {
